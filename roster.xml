@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 3
+
+   The Save Exotic Animals Trust donor roster
+   Author: Ronnie Johnson
+   Date:   06/02/2024
+
+   Filename:             roster.xml
+   Supporting document:  seatrust.dtd
+-->
+
+<!DOCTYPE roster SYSTEM "seatrust.dtd">
+<roster>
+
+    <donor level="Founding Circle Donors">
+        <name>David Brennan</name>
+        <address>5133 Oak Street Windermere, FL  34786</address>
+        <phone type="home">(407) 555-8981</phone>
+        <email>dbrennan@example.net</email>
+        <donation>$50,000</donation>
+        <method>phone</method>
+        <effectivedate>9/1/1982 </effectivedate>
+    </donor>
+
+    <donor>
+        <name>Cindy Wu</name>
+        <address>31 Alice Avenue Windermere, FL 34786</address>
+        <phone type="home">(407) 555-7212</phone>
+        <email>cwu@example.net</email>
+        <donation>$50,000</donation>
+        <method>phone</method>
+        <effectivedate>9/1/1982</effectivedate>
+    </donor>
+
+    <donor level="Sponsorship Donors">
+        <name>David Olson</name>
+        <address>5133 Oak Street Windermere, FL  34786</address>
+        <phone type="home">(407) 555-8981</phone>
+        <email>dolson@example.net</email>
+        <donation>$25,000</donation>
+        <method>personal</method>
+        <effectivedate>7/3/1985 </effectivedate>
+    
+    </donor>
+
+    <donor level="Sponsorship Donors">
+        <name>Wilmer Stonehedge</name>
+        <address>31 Alice Avenue, Windermere, FL  34786</address>
+        <phone type="home">(407) 555-7212</phone>
+        <email>dbrennan@example.net</email>
+        <donation>$25,000</donation>
+        <method>personal</method>
+        <effectivedate>10/3/1994 </effectivedate>
+    </donor>
+    <donor level="Patron Donors">
+        <name>Lee Unwin</name>
+        <address>451 Unwin Ct. Orlando, FL 32801</address>
+        <phone type="cell"> (407) 555-9082 cell</phone>
+        <email>leeunwin@example.net</email>
+        <donation>$18,000</donation>
+        <method>personal</method>
+        <effectivedate> 11/1/1998</effectivedate>
+
+    <name>Jane Whitney</name>
+    <address>87 Hilltop Drive Windermere, FL 34786</address>
+    <phone type="work">(407) 555-7493</phone> 
+    <donation>$15,000</donation>
+    <method> personal</method>
+    <effectivedate> 11/1/1998</effectivedate>
+
+    <name>Andrew Sanchez</name>
+    <address>891 Lindon Lane Windermere, FL 34786</address>
+    <phone type="cell">(407) 555-4313</phone>
+    <email>asanchez@example.com</email>
+    <donation>$15,000</donation>
+    <method> personal</method>
+    <effectivedate> 3/4/2000</effectivedate>
+
+</roster>
